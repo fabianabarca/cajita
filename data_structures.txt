@@ -1,0 +1,10 @@
+Estructuras de Datos
+
+Banderas: Variable de 1 byte del cual se utilizarán los 4 bits menos significativos, como sigue: 
+          X:X:X:X:bit_muy_mal:bit_mal:bit_bien:bit_muy_bien
+          
+Contadores: 
+    Muy_Mal: Variable de 1 byte 
+    Mal: Variable de 1 byte 
+    Bien: Variable de 1 byte 
+    Muy_Bien: Variable de 1 byte 
