@@ -1,3 +1,6 @@
+#Programa principal
+
+```mermaid
 graph TD
     A(Main) -->B[Inicialización de Hardware]
     B --> C[Inicialización de variables <br /> Banderas <- $00 <br /> Muy_Mal <- $00 <br /> Mal <- $00 <br /> Bien <- $00 <br /> Muy_Bien <- $00]
@@ -7,5 +10,5 @@ graph TD
     F --> |No| E
     F --> |Sí| G(Registrar_Voto)
     G --> E
-
+```
   
