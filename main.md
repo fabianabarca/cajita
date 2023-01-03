@@ -1,4 +1,4 @@
-#Programa principal
+# Programa principal
 
 ```mermaid
 graph TD
