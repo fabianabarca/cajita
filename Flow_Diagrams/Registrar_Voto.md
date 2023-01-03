@@ -1,4 +1,4 @@
-# Diagrama de Flujo De subrutina para contabilizar votos
+## Diagrama de Flujo De subrutina para contabilizar votos
 
 ```mermaid
 graph TD
