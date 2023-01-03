@@ -11,6 +11,8 @@ graph TD
     I --> |Sí|K[Bien <- Bien + 1] --> J(( ))
     I --> |No|L{{ Bandera == $01 }}
     L --> |Sí|M[Muy_Bien <- Muy_Bien + 1] --> N[Limpiar Bandera <br /> Bandera <- $00] 
-
+    L --> |No|N
     E -->H-->J-->N --> Z((Salir))
+     
+  
 ```    
