@@ -11,6 +11,7 @@ graph TD
     I --> |Sí|K[Bandera <- $02] --> J(( ))
     I --> |No|L{{ Botón 0}}
     L --> |Sí|M[Bandera <- $01] --> Z((Salir))
+    L --> |No|Z
 
     E -->H-->J-->Z
 ```     
